@@ -12,7 +12,6 @@ response2 = requests.get(url2)
 var1 = response1.json()
 var2 = response2.json()
 
-
 price1 = round(float(var1['price']['rate']), 2)
 time.sleep(3)
 marketcap1 = round(float(var1['price']['marketCapUsd']), 2)
