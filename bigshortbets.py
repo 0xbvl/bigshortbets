@@ -2,7 +2,7 @@ import requests
 import time
 
 contractAddress = '0x131157c6760f78f7ddf877c0019eba175ba4b6f6'
-## contractAddress2 = input('enter contract address: ')
+## checkAnyContract = input('enter contract address: ')
 
 url1 = f'https://api.ethplorer.io/getTokenInfo/{contractAddress}?apiKey=freekey'
 url2 = f'https://api.ethplorer.io/getTopTokenHolders/{contractAddress}?apiKey=freekey&limit=20'
